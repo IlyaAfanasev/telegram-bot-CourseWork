@@ -8,3 +8,8 @@ CREATE TABLE  notification_task(
     local_date_time timestamp
     );
 
+-- changeset ilia:6
+CREATE INDEX local_date_time_idx ON notification_task (local_date_time);
+
+
+
